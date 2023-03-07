@@ -1,6 +1,6 @@
 # Lab 6 - GitHub lab
 
-def encode(password):
+def encode(password):  # this is shane's comment change
     encoded = ""
     for i in password:
         digit = int(i) + 3
