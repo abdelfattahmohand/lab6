@@ -8,7 +8,7 @@ def encode(password):
     return encoded
 
 
-def decode(password):
+def decode(password):  #this is mohand change
     decoded = ""
     for i in password:
         digit = int(i) - 3
